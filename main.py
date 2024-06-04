@@ -105,7 +105,7 @@ class TicTacToeBoard(tk.Tk):
         self.config(menu=menu_bar)
         file_menu = tk.Menu(master=menu_bar)
         file_menu.add
-        menu_bar.add_cascade(label="File", menu=file_menu)
+        menu_bar.add_cascade(label="Options", menu=file_menu)
         file_menu.add_command(label="Restart", command=self._restart_game)
         file_menu.add_command(label="Quit", command=self.quit)
 
